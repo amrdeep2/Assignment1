@@ -1,0 +1,7 @@
+C:\Users\amard\.NET\lab3\Assignment1\obj\Release\net8.0\PubTmp\Out\Assignment1.exe
+C:\Users\amard\.NET\lab3\Assignment1\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\amard\.NET\lab3\Assignment1\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\amard\.NET\lab3\Assignment1\obj\Release\net8.0\PubTmp\Out\Assignment1.dll
+C:\Users\amard\.NET\lab3\Assignment1\obj\Release\net8.0\PubTmp\Out\Assignment1.deps.json
+C:\Users\amard\.NET\lab3\Assignment1\obj\Release\net8.0\PubTmp\Out\Assignment1.runtimeconfig.json
+C:\Users\amard\.NET\lab3\Assignment1\obj\Release\net8.0\PubTmp\Out\Assignment1.pdb

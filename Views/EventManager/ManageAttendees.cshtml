@@ -1,0 +1,70 @@
+﻿@model Assignment1.Models.Event
+
+@{
+    var eventName = (string)(ViewData["EventName"] ?? Model.title);
+    var error = (string)ViewData["Error"];
+}
+
+<h1>Manage Attendees</h1>
+<h3>Event: <strong>@eventName</strong></h3>
+
+@if (!string.IsNullOrWhiteSpace(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+
+<hr />
+
+<h4>Signup Form</h4>
+
+<form asp-action="ManageAttendees" asp-route-id="@Model.id" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input class="form-control" name="name" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input class="form-control" name="email" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Register</button>
+    <a class="btn btn-secondary" asp-action="Index">Back to Events</a>
+</form>
+
+<hr />
+
+<h4>Attendees List (@(Model.Attendees == null ? 0 : Model.Attendees.Count))</h4>
+
+@if (Model.Attendees == null || !Model.Attendees.Any())
+{
+    <p>No attendees registered yet.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int i = 1;
+            }
+            @foreach (var a in Model.Attendees)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@a.getName()</td>
+                    <td>@a.getEmail()</td>
+                </tr>
+                i++;
+            }
+        </tbody>
+    </table>
+}
