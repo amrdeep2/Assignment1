@@ -1,29 +1,24 @@
-﻿namespace Assignment1.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Assignment1.Models
 {
     public class Event
     {
-        public int id;
-        public string title;
-        public string Location;
-        public List<Attendee> Attendees;
-        public DateTime Date;
+        public int Id { get; set; }
 
-        // ✅ Add this constructor
-        public Event()
-        {
-            Attendees = new List<Attendee>();
-        }
+        [Required]
+        public string Title { get; set; } = string.Empty;
 
-        public int getID() => id;
-        public string getTitle() => title;
+        [Required]
+        public string Description { get; set; } = string.Empty;
 
-        public void setLocation(string name) => Location = name;
-        public void setTitle(string email) => title = email;
-        public void setId(int id) => this.id = id;
+        public DateTime Date { get; set; }
 
-        public void addList(Attendee list)
-        {
-            Attendees.Add(list);
-        }
+        [Required]
+        public string Location { get; set; } = string.Empty;
+
+        public string? BannerUrl { get; set; }
+
+        public List<Attendee> Attendees { get; set; } = new();
     }
 }

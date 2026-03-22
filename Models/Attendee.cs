@@ -1,29 +1,20 @@
-﻿namespace Assignment1.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Assignment1.Models
 {
     public class Attendee
     {
-        public int id { get; set; }
-       public String name;
-        public String email;
+        [Key]
+        public string Id { get; set; } = Guid.NewGuid().ToString();
 
+        [Required]
+        public string Name { get; set; } = string.Empty;
 
-        public String getName()
-        {
-            return name;
-        }
-        public String getEmail()
-        {
-            return email;
-        }
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; } = string.Empty;
 
-        public void setName(String name)
-        {
-            this.name = name;
-        }
-        public void setEmail(String email)
-        {
-            this.email = email;
-        }
-
+        public int EventId { get; set; }
+        public Event? Event { get; set; }
     }
 }

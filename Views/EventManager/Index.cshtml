@@ -1,12 +1,14 @@
 ﻿@model List<Assignment1.Models.Event>
 
 @{
-    ViewData["Title"] = ViewData["Title"] ?? "Event Manager";
-    var eventCount = (int)(ViewData["EventCount"] ?? 0);
+    ViewData["Title"] = "Event Manager";
 }
 
 <h1>Event Manager</h1>
-<p>Total Events: <strong>@eventCount</strong></p>
+
+<p>
+    <a asp-controller="EventManager" asp-action="Create" class="btn btn-primary">Create New Event</a>
+</p>
 
 <table class="table table-striped">
     <thead>
@@ -14,7 +16,6 @@
             <th>Title</th>
             <th>Date</th>
             <th>Location</th>
-            <th>Attendees</th>
             <th></th>
         </tr>
     </thead>
@@ -22,17 +23,14 @@
         @foreach (var ev in Model)
         {
             <tr>
-                <td>@ev.title</td>
-                <td>@ev.Date.ToString("yyyy-MM-dd")</td>
+                <td>@ev.Title</td>
+                <td>@ev.Date.ToString("yyyy-MM-dd hh:mm tt")</td>
                 <td>@ev.Location</td>
-                <td>@(ev.Attendees == null ? 0 : ev.Attendees.Count)</td>
                 <td>
-                    <a class="btn btn-primary"
-                       asp-controller="EventManager"
-                       asp-action="ManageAttendees"
-                       asp-route-id="@ev.id">
-                        Manage Attendees
-                    </a>
+                    <a asp-controller="EventManager" asp-action="Details" asp-route-id="@ev.Id">Details</a> |
+                    <a asp-controller="EventManager" asp-action="Edit" asp-route-id="@ev.Id">Edit</a> |
+                    <a asp-controller="EventManager" asp-action="Delete" asp-route-id="@ev.Id">Delete</a> |
+                    <a asp-controller="EventManager" asp-action="ManageAttendees" asp-route-id="@ev.Id">Attendees</a>
                 </td>
             </tr>
         }
