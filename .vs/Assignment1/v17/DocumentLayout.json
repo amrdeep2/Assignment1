@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -83,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,19 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\EventManager\\Create.cshtml",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Create.cshtml",
-              "RelativeToolTip": "Views\\EventManager\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T21:40:25.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\EventManager\\Index.cshtml",
@@ -150,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Delete.cshml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Delete.cshml",
               "RelativeDocumentMoniker": "Views\\EventManager\\Delete.cshml",
@@ -162,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\EventManager\\Details.cshtml",
@@ -175,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -187,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\EventManager\\Details.cshtml.cs",
@@ -199,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\EventManager\\Delete.cshtml",
@@ -211,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\EventManager\\Edit.cshtml",
@@ -223,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -247,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\EventManager\\Index.cshtml.cs",
@@ -259,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -271,7 +259,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-22T20:41:50.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventManager\\Create.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Create.cshtml",
+              "RelativeToolTip": "Views\\EventManager\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T21:40:25.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
@@ -283,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -295,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ManageAttendees.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\ManageAttendees.cshtml",
               "RelativeDocumentMoniker": "Views\\EventManager\\ManageAttendees.cshtml",
@@ -307,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -319,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -331,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -343,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\Event.cs",
               "RelativeDocumentMoniker": "Models\\Event.cs",
@@ -355,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -367,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Attendee.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\Attendee.cs",
               "RelativeDocumentMoniker": "Models\\Attendee.cs",
@@ -376,18 +389,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T02:23:43.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-22T20:41:50.662Z"
             },
             {
               "$type": "Document",
