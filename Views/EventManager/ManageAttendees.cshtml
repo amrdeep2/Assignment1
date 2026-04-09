@@ -1,8 +1,8 @@
 ﻿@model Assignment1.Models.Event
 
 @{
-    var eventName = (string)(ViewData["EventName"] ?? Model.title);
-    var error = (string)ViewData["Error"];
+    var eventName = (string)(ViewData["EventName"] ?? Model.Title);
+    var error = ViewData["Error"] as string;
 }
 
 <h1>Manage Attendees</h1>
@@ -17,7 +17,7 @@
 
 <h4>Signup Form</h4>
 
-<form asp-action="ManageAttendees" asp-route-id="@Model.id" method="post">
+<form asp-action="ManageAttendees" asp-route-id="@Model.Id" method="post">
     @Html.AntiForgeryToken()
 
     <div class="mb-3">
@@ -60,8 +60,8 @@ else
             {
                 <tr>
                     <td>@i</td>
-                    <td>@a.getName()</td>
-                    <td>@a.getEmail()</td>
+                    <td>@a.Name</td>
+                    <td>@a.Email</td>
                 </tr>
                 i++;
             }

@@ -1,90 +1,163 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Assignment1.Data;
 using Assignment1.Models;
-using System.Linq;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Assignment1.Controllers
 {
+    [Route("events")]
     public class EventManagerController : Controller
     {
-        // Hardcoded events to simulate database persistence
-        private static List<Event> _events = new List<Event>
-        {
-            new Event
-            {
-                id = 1,
-                title = "Tech Meetup",
-                Date = DateTime.Today.AddDays(3),
-                Location = "Ottawa",
-                Attendees = new List<Attendee>()
-            },
-            new Event
-            {
-                id = 2,
-                title = "Career Fair",
-                Date = DateTime.Today.AddDays(10),
-                Location = "Montreal",
-                Attendees = new List<Attendee>()
-            },
-            new Event
-            {
-                id = 3,
-                title = "Hackathon",
-                Date = DateTime.Today.AddDays(20),
-                Location = "Toronto",
-                Attendees = new List<Attendee>()
-            }
-        };
+        private readonly ApplicationDbContext _context;
 
-        // GET: /EventManager
-        public IActionResult Index()
+        public EventManagerController(ApplicationDbContext context)
         {
-            ViewData["Title"] = "Event Manager";
-            ViewData["EventCount"] = _events.Count;
-
-            return View(_events);
+            _context = context;
         }
 
-        // GET: /EventManager/ManageAttendees/1
-        [HttpGet]
-        public IActionResult ManageAttendees(int id)
+        [HttpGet("")]
+        public async Task<IActionResult> Index()
         {
-            var ev = _events.FirstOrDefault(e => e.id == id);
+            var events = await _context.Events.ToListAsync();
+            ViewData["Title"] = "Event Manager";
+            ViewData["EventCount"] = events.Count;
+
+            return View(events);
+        }
+
+        [HttpGet("manageattendees/{id}")]
+        public async Task<IActionResult> ManageAttendees(int id)
+        {
+            var ev = await _context.Events
+                .Include(e => e.Attendees)
+                .FirstOrDefaultAsync(e => e.Id == id);
+
             if (ev == null) return NotFound();
 
-            // Make sure list exists (safety)
-            ev.Attendees ??= new List<Attendee>();
+            ViewData["EventName"] = ev.Title;
+            return View(ev);
+        }
+        [HttpGet("details/{id}")]
+        public async Task<IActionResult> Details(int id)
+        {
+            var ev = await _context.Events
+                .Include(e => e.Attendees)
+                .FirstOrDefaultAsync(e => e.Id == id);
 
-            // Event name/title
-            ViewData["EventName"] = ev.title;
+            if (ev == null) return NotFound();
 
             return View(ev);
         }
 
-        // POST: /EventManager/ManageAttendees/1
-        [HttpPost]
+        [HttpPost("manageattendees/{id}")]
         [ValidateAntiForgeryToken]
-        public IActionResult ManageAttendees(int id, string name, string email)
+        public async Task<IActionResult> ManageAttendees(int id, string name, string email)
         {
-            var ev = _events.FirstOrDefault(e => e.id == id);
-            if (ev == null) return NotFound();
+            var ev = await _context.Events
+                .Include(e => e.Attendees)
+                .FirstOrDefaultAsync(e => e.Id == id);
 
-            ev.Attendees ??= new List<Attendee>();
+            if (ev == null) return NotFound();
 
             if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(email))
             {
-                ViewData["EventName"] = ev.title;
+                ViewData["EventName"] = ev.Title;
                 ViewData["Error"] = "Name and Email are required.";
                 return View(ev);
             }
 
-            var attendee = new Attendee();
-            attendee.setName(name.Trim());
-            attendee.setEmail(email.Trim());
+            var attendee = new Attendee
+            {
+                Name = name.Trim(),
+                Email = email.Trim(),
+                EventId = ev.Id
+            };
 
-            // Use your method
-            ev.addList(attendee);
+            _context.Attendees.Add(attendee);
+            await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(ManageAttendees), new { id });
         }
+        [HttpGet("create")]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost("create")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Event ev, IFormFile? bannerFile)
+        {
+            if (!ModelState.IsValid)
+                return View(ev);
+
+            if (bannerFile != null && bannerFile.Length > 0)
+            {
+                ev.BannerUrl = "https://via.placeholder.com/800x250?text=" + Uri.EscapeDataString(ev.Title);
+            }
+
+            _context.Events.Add(ev);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpGet("edit/{id}")]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var ev = await _context.Events.FindAsync(id);
+            if (ev == null) return NotFound();
+
+            return View(ev);
+        }
+
+        [HttpPost("edit/{id}")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Event ev, IFormFile? bannerFile)
+        {
+            if (id != ev.Id) return NotFound();
+
+            if (!ModelState.IsValid)
+                return View(ev);
+
+            var existing = await _context.Events.FindAsync(id);
+            if (existing == null) return NotFound();
+
+            existing.Title = ev.Title;
+            existing.Description = ev.Description;
+            existing.Date = ev.Date;
+            existing.Location = ev.Location;
+
+            if (bannerFile != null && bannerFile.Length > 0)
+            {
+                existing.BannerUrl = "https://via.placeholder.com/800x250.png?text=" + Uri.EscapeDataString(existing.Title);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+       
+        [HttpGet("delete/{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var ev = await _context.Events.FirstOrDefaultAsync(e => e.Id == id);
+            if (ev == null) return NotFound();
+
+            return View(ev);
+        }
+
+        [HttpPost("delete/{id}")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var ev = await _context.Events.FindAsync(id);
+            if (ev == null) return NotFound();
+
+            _context.Events.Remove(ev);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }
