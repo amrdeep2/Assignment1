@@ -6,9 +6,12 @@
 
 <h1>Event Manager</h1>
 
-<p>
-    <a asp-controller="EventManager" asp-action="Create" class="btn btn-primary">Create New Event</a>
-</p>
+@if (User.IsInRole("Organizer"))
+{
+    <p>
+        <a asp-controller="EventManager" asp-action="Create" class="btn btn-primary">Create New Event</a>
+    </p>
+}
 
 <table class="table table-striped">
     <thead>
@@ -27,10 +30,17 @@
                 <td>@ev.Date.ToString("yyyy-MM-dd hh:mm tt")</td>
                 <td>@ev.Location</td>
                 <td>
-                    <a asp-controller="EventManager" asp-action="Details" asp-route-id="@ev.Id">Details</a> |
-                    <a asp-controller="EventManager" asp-action="Edit" asp-route-id="@ev.Id">Edit</a> |
-                    <a asp-controller="EventManager" asp-action="Delete" asp-route-id="@ev.Id">Delete</a> |
-                    <a asp-controller="EventManager" asp-action="ManageAttendees" asp-route-id="@ev.Id">Attendees</a>
+                    <a asp-controller="EventManager" asp-action="Details" asp-route-id="@ev.Id">View</a>
+
+                    @if (User.IsInRole("Organizer"))
+                    {
+                        <text> | </text>
+                        <a asp-controller="EventManager" asp-action="Edit" asp-route-id="@ev.Id">Edit</a>
+                        <text> | </text>
+                        <a asp-controller="EventManager" asp-action="Delete" asp-route-id="@ev.Id">Delete</a>
+                        <text> | </text>
+                        <a asp-controller="EventManager" asp-action="ManageAttendees" asp-route-id="@ev.Id">Register</a>
+                    }
                 </td>
             </tr>
         }

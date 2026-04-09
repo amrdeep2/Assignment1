@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,52 +19,44 @@
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\delete.cshml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\manageattendees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\manageattendees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\manageattendees.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\manageattendees.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,16 +71,48 @@
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\manageattendees.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\manageattendees.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\migrations\\20260322211904_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:migrations\\20260322211904_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\eventmanager\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\eventmanager\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|c:\\users\\amard\\.net\\lab3\\assignment1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64DA7F27-BD0B-46DA-9EF7-FBF29726B9CC}|Assignment1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,31 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\EventManager\\Create.cshtml",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Create.cshtml",
-              "RelativeToolTip": "Views\\EventManager\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T21:40:25.066Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\EventManager\\Index.cshtml",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml",
-              "RelativeToolTip": "Views\\EventManager\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-09T23:46:13.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Delete.cshml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Delete.cshml",
               "RelativeDocumentMoniker": "Views\\EventManager\\Delete.cshml",
@@ -158,48 +150,12 @@
               "RelativeToolTip": "Views\\EventManager\\Delete.cshml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-22T21:40:52.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\EventManager\\Details.cshtml",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml",
-              "RelativeToolTip": "Views\\EventManager\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T21:22:47.348Z",
+              "WhenOpened": "2026-03-22T21:40:52.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAkwJYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T02:29:15.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "Views\\EventManager\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml.cs",
-              "RelativeToolTip": "Views\\EventManager\\Details.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T21:36:10.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\EventManager\\Delete.cshtml",
@@ -207,155 +163,168 @@
               "RelativeToolTip": "Views\\EventManager\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T21:41:43.675Z"
+              "WhenOpened": "2026-03-22T21:41:43.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\EventManager\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Edit.cshtml",
-              "RelativeToolTip": "Views\\EventManager\\Edit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T21:44:59.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T21:23:11.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20260322211904_Init.cs",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Migrations\\20260322211904_Init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260322211904_Init.cs",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Migrations\\20260322211904_Init.cs",
-              "RelativeToolTip": "Migrations\\20260322211904_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T21:19:05.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Views\\EventManager\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml.cs",
-              "RelativeToolTip": "Views\\EventManager\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T23:23:56.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T02:48:36.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Data\\DbInitializer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T21:20:46.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-07T02:39:25.267Z"
+              "WhenOpened": "2026-02-07T02:39:25.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "ManageAttendees.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\ManageAttendees.cshtml",
               "RelativeDocumentMoniker": "Views\\EventManager\\ManageAttendees.cshtml",
               "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\ManageAttendees.cshtml",
               "RelativeToolTip": "Views\\EventManager\\ManageAttendees.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvzwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-09T23:23:57.063Z"
+              "WhenOpened": "2026-02-09T23:23:57.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T21:14:08.029Z"
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T02:48:36.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventManager\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Edit.cshtml",
+              "RelativeToolTip": "Views\\EventManager\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T21:14:06.281Z"
+              "WhenOpened": "2026-03-22T21:44:59.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventManager\\Create.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Create.cshtml",
+              "RelativeToolTip": "Views\\EventManager\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T21:40:25.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageAttendees.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\ManageAttendees.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\EventManager\\ManageAttendees.cshtml.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\ManageAttendees.cshtml.cs",
+              "RelativeToolTip": "Views\\EventManager\\ManageAttendees.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T23:23:54.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventManager\\Details.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml",
+              "RelativeToolTip": "Views\\EventManager\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T21:22:47.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventManager\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml",
+              "RelativeToolTip": "Views\\EventManager\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T23:46:13.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-09T02:06:20.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T21:20:46.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T20:56:57.236Z"
+              "WhenOpened": "2026-03-22T20:56:57.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Models\\Event.cs",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\Event.cs",
-              "RelativeToolTip": "Models\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAQwLsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T02:22:28.955Z"
+              "WhenOpened": "2026-02-07T02:29:15.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 14,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -363,35 +332,64 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T23:18:27.495Z"
+              "WhenOpened": "2026-02-09T23:18:27.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 15,
               "Title": "Attendee.cs",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\Attendee.cs",
               "RelativeDocumentMoniker": "Models\\Attendee.cs",
               "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\Attendee.cs",
               "RelativeToolTip": "Models\\Attendee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T02:23:43.173Z"
+              "WhenOpened": "2026-02-07T02:23:43.173Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-22T20:41:50.662Z"
+              "WhenOpened": "2026-03-22T20:41:50.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T22:08:06.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T02:22:28.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -399,19 +397,112 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T20:17:11.764Z"
+              "WhenOpened": "2026-02-26T20:17:11.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T22:59:43.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260322211904_Init.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Migrations\\20260322211904_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260322211904_Init.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Migrations\\20260322211904_Init.cs",
+              "RelativeToolTip": "Migrations\\20260322211904_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T22:59:46.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\EventManager\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Index.cshtml.cs",
+              "RelativeToolTip": "Views\\EventManager\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T23:23:56.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T21:23:11.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "ManageAttendees.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\ManageAttendees.cshtml.cs",
-              "RelativeDocumentMoniker": "Views\\EventManager\\ManageAttendees.cshtml.cs",
-              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\ManageAttendees.cshtml.cs",
-              "RelativeToolTip": "Views\\EventManager\\ManageAttendees.cshtml.cs",
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\EventManager\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Delete.cshtml.cs",
+              "RelativeToolTip": "Views\\EventManager\\Delete.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T23:23:54.068Z"
+              "WhenOpened": "2026-03-23T20:34:46.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\EventManager\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\EventManager\\Details.cshtml.cs",
+              "RelativeToolTip": "Views\\EventManager\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T21:36:10.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T21:14:08.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\amard\\.NET\\lab3\\Assignment1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T21:14:06.281Z",
+              "EditorCaption": ""
             }
           ]
         }

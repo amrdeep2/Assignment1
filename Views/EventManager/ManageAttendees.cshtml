@@ -13,26 +13,34 @@
     <div class="alert alert-danger">@error</div>
 }
 
+@if (!string.IsNullOrEmpty(Model.BannerUrl))
+{
+    <img src="@Model.BannerUrl" alt="Banner" class="img-fluid mb-3" style="max-height:250px;" />
+}
+
 <hr />
 
-<h4>Signup Form</h4>
+@if (User.IsInRole("Organizer"))
+{
+    <h4>Add Attendee</h4>
 
-<form asp-action="ManageAttendees" asp-route-id="@Model.Id" method="post">
-    @Html.AntiForgeryToken()
+    <form asp-action="ManageAttendees" asp-route-id="@Model.Id" method="post">
+        @Html.AntiForgeryToken()
 
-    <div class="mb-3">
-        <label class="form-label">Name</label>
-        <input class="form-control" name="name" />
-    </div>
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input class="form-control" name="name" />
+        </div>
 
-    <div class="mb-3">
-        <label class="form-label">Email</label>
-        <input class="form-control" name="email" />
-    </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input class="form-control" name="email" />
+        </div>
 
-    <button type="submit" class="btn btn-success">Register</button>
-    <a class="btn btn-secondary" asp-action="Index">Back to Events</a>
-</form>
+        <button type="submit" class="btn btn-success">Add Attendee</button>
+        <a class="btn btn-secondary" asp-action="Index">Back to Events</a>
+    </form>
+}
 
 <hr />
 
@@ -50,6 +58,10 @@ else
                 <th>#</th>
                 <th>Name</th>
                 <th>Email</th>
+                @if (User.IsInRole("Organizer"))
+                {
+                    <th></th>
+                }
             </tr>
         </thead>
         <tbody>
@@ -62,6 +74,15 @@ else
                     <td>@i</td>
                     <td>@a.Name</td>
                     <td>@a.Email</td>
+                    @if (User.IsInRole("Organizer"))
+                    {
+                        <td>
+                            <a asp-action="RemoveAttendee"
+                               asp-route-id="@Model.Id"
+                               asp-route-attendeeId="@a.Id"
+                               class="btn btn-danger btn-sm">Remove</a>
+                        </td>
+                    }
                 </tr>
                 i++;
             }

@@ -26,7 +26,6 @@ C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\staticwebassets\msbuild.bu
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Assignment1.props
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Assignment1.props
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\Assignment1.dll
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\refint\Assignment1.dll
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\Assignment1.pdb
@@ -145,3 +144,16 @@ C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Sy
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\Assignment1.csproj.AssemblyReference.cache
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\Assignment1.sourcelink.json
 C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\Assignme.A5F6ECAD.Up2Date
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\amard\.NET\lab3\Assignment1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\Assignment1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amard\.NET\lab3\Assignment1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

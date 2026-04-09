@@ -1,58 +1,114 @@
-﻿using Assignment1.Models;
+﻿/*fsfsfs*/
+
+using Assignment1.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Assignment1.Data
 {
     public static class DbInitializer
     {
-        public static void Initialize(ApplicationDbContext context)
+        public static async Task Initialize(IServiceProvider serviceProvider)
         {
-            if (context.Events.Any())
-                return;
+            using var scope = serviceProvider.CreateScope();
 
-            var event1 = new Event
+            var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+            await context.Database.MigrateAsync();
+
+            // Roles
+            string[] roles = { "Organizer", "Attendee" };
+
+            foreach (var role in roles)
             {
-                Title = "Tech Meetup",
-                Description = "Networking with students and developers.",
-                Date = DateTime.Today.AddDays(5),
-                Location = "Ottawa",
-                BannerUrl = "https://via.placeholder.com/800x250?text=Tech+Meetup"
-            };
+                if (!await roleManager.RoleExistsAsync(role))
+                {
+                    await roleManager.CreateAsync(new IdentityRole(role));
+                }
+            }
 
-            var event2 = new Event
+            // Organizer user
+            string organizerEmail = "organizer@test.com";
+            string organizerPassword = "Password123!";
+
+            var organizer = await userManager.FindByEmailAsync(organizerEmail);
+            if (organizer == null)
             {
-                Title = "Career Fair",
-                Description = "Meet employers and recruiters.",
-                Date = DateTime.Today.AddDays(10),
-                Location = "Montreal",
-                BannerUrl = "https://via.placeholder.com/800x250?text=Career+Fair"
-            };
+                organizer = new IdentityUser
+                {
+                    UserName = organizerEmail,
+                    Email = organizerEmail,
+                    EmailConfirmed = true
+                };
 
-            var event3 = new Event
+                await userManager.CreateAsync(organizer, organizerPassword);
+                await userManager.AddToRoleAsync(organizer, "Organizer");
+            }
+
+            // Attendee user
+            string attendeeEmail = "attendee@test.com";
+            string attendeePassword = "Password123!";
+
+            var attendeeUser = await userManager.FindByEmailAsync(attendeeEmail);
+            if (attendeeUser == null)
             {
-                Title = "Hackathon",
-                Description = "Build projects with your team.",
-                Date = DateTime.Today.AddDays(20),
-                Location = "Toronto",
-                BannerUrl = "https://via.placeholder.com/800x250?text=Hackathon"
-            };
+                attendeeUser = new IdentityUser
+                {
+                    UserName = attendeeEmail,
+                    Email = attendeeEmail,
+                    EmailConfirmed = true
+                };
 
-            context.Events.AddRange(event1, event2, event3);
-            context.SaveChanges();
+                await userManager.CreateAsync(attendeeUser, attendeePassword);
+                await userManager.AddToRoleAsync(attendeeUser, "Attendee");
+            }
 
-            var attendees = new List<Attendee>
+            // Seed events only once
+            if (!context.Events.Any())
             {
-                new Attendee { Name = "Amar", Email = "amar@test.com", EventId = event1.Id },
-                new Attendee { Name = "Souhail", Email = "souhail@test.com", EventId = event1.Id },
+                var event1 = new Event
+                {
+                    Title = "Tech Meetup",
+                    Description = "Networking with students and developers.",
+                    Date = DateTime.Today.AddDays(5),
+                    Location = "Ottawa",
+                    BannerUrl = "https://picsum.photos/800/250?random=1"
+                };
 
-                new Attendee { Name = "Jinal", Email = "jinal@test.com", EventId = event2.Id },
-                new Attendee { Name = "Nikita", Email = "nikita@test.com", EventId = event2.Id },
+                var event2 = new Event
+                {
+                    Title = "Career Fair",
+                    Description = "Meet employers and recruiters.",
+                    Date = DateTime.Today.AddDays(10),
+                    Location = "Montreal",
+                    BannerUrl = "https://picsum.photos/800/250?random=2"
+                };
 
-                new Attendee { Name = "Mission", Email = "mission@test.com", EventId = event3.Id },
-                new Attendee { Name = "Alvin", Email = "alvin@test.com", EventId = event3.Id }
-            };
+                var event3 = new Event
+                {
+                    Title = "Hackathon",
+                    Description = "Build projects with your team.",
+                    Date = DateTime.Today.AddDays(20),
+                    Location = "Toronto",
+                    BannerUrl = "https://picsum.photos/800/250?random=3"
+                };
 
-            context.Attendees.AddRange(attendees);
-            context.SaveChanges();
+                context.Events.AddRange(event1, event2, event3);
+                await context.SaveChangesAsync();
+
+                context.Attendees.AddRange(
+                    new Attendee { Name = "Amar", Email = "amar@test.com", EventId = event1.Id },
+                    new Attendee { Name = "Souhail", Email = "souhail@test.com", EventId = event1.Id },
+                    new Attendee { Name = "Jinal", Email = "jinal@test.com", EventId = event2.Id },
+                    new Attendee { Name = "Nikita", Email = "nikita@test.com", EventId = event2.Id },
+                    new Attendee { Name = "Mission", Email = "mission@test.com", EventId = event3.Id },
+                    new Attendee { Name = "Alvin", Email = "alvin@test.com", EventId = event3.Id }
+                );
+
+                await context.SaveChangesAsync();
+            }
         }
     }
 }

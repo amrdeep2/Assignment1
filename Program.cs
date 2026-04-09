@@ -1,4 +1,5 @@
 using Assignment1.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Assignment1
@@ -7,7 +8,6 @@ namespace Assignment1
     {
         public static void Main(string[] args)
         {
-           
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllersWithViews();
@@ -15,12 +15,21 @@ namespace Assignment1
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            builder.Services
+                .AddDefaultIdentity<IdentityUser>(options =>
+                {
+                    options.SignIn.RequireConfirmedAccount = false;
+                })
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>();
+
             var app = builder.Build();
+
             using (var scope = app.Services.CreateScope())
             {
-                var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                DbInitializer.Initialize(context);
+                DbInitializer.Initialize(scope.ServiceProvider).Wait();
             }
+
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -32,11 +41,14 @@ namespace Assignment1
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=events}/{action=Index}/{id?}");
+                pattern: "{controller=EventManager}/{action=Index}/{id?}");
+
+            app.MapRazorPages();
 
             app.Run();
         }
